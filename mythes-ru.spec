@@ -2,7 +2,7 @@ Name: mythes-ru
 Summary: Russian thesaurus
 %define upstreamid 20070613
 Version: 0.%{upstreamid}
-Release: 8%{?dist}
+Release: 9%{?dist}
 Source: http://download.i-rs.ru/pub/openoffice/dict/thes_ru_RU_v2.zip
 Group: Applications/Text
 URL: http://wiki.services.openoffice.org/wiki/Dictionaries
@@ -40,6 +40,9 @@ rm -rf $RPM_BUILD_ROOT
 %{_datadir}/mythes/*
 
 %changelog
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 0.20070613-9
+- Mass rebuild 2013-12-27
+
 * Thu Feb 14 2013 Fedora Release Engineering <rel-eng@lists.fedoraproject.org> - 0.20070613-8
 - Rebuilt for https://fedoraproject.org/wiki/Fedora_19_Mass_Rebuild
 
